@@ -1,0 +1,39 @@
+:root {
+    --black: #000000;
+    --blue: #0000FF;
+    --gray: #686868;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.flex1 {
+    background-color: var(--black);
+    width: 70%;
+}
+
+.flex2 {
+    width: 100%;
+    background-color: var(--blue);
+}
+
+.start, .end {
+    width: 50px;
+    background-color: var(--gray);
+}
